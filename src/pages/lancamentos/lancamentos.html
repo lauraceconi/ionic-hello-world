@@ -1,0 +1,27 @@
+<ion-header>
+
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>
+          LANÇAMENTOS
+      </ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+
+<ion-content padding>
+
+
+  <ion-card *ngFor="let filme of filmes; let index = index">
+    <ion-card-content>
+      <img [src]="'https://image.tmdb.org/t/p/original' + urlPoster(filme)" class="poster" [ngClass]="teste(index)">
+      <h2>{{ filme.title }}</h2>
+      <hr>
+      <p>{{ filme.overview }}</p>
+      <p><ion-icon name="star"></ion-icon> {{ filme.vote_average }}</p>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
