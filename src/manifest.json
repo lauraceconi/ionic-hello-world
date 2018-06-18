@@ -3,7 +3,7 @@
   "short_name": "Filmes",
   "theme_color": "#c0392b",
   "background_color": "#c0392b",
-  "display": "fullscreen",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "/index.html",
   "icons": [

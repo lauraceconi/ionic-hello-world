@@ -11,6 +11,8 @@ self.toolbox.options.cache = {
   name: 'ionic-cache'
 };
 
+self.toolbox.options.debug = true;
+
 // pre-cache our key assets
 self.toolbox.precache(
   [
