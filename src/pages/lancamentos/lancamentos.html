@@ -16,7 +16,7 @@
 
   <ion-card *ngFor="let filme of filmes; let index = index">
     <ion-card-content>
-      <img [src]="'https://image.tmdb.org/t/p/original' + urlPoster(filme)" class="poster" [ngClass]="teste(index)">
+      <img [src]="'https://image.tmdb.org/t/p/w500' + urlPoster(filme)" class="poster" [ngClass]="teste(index)">
       <h2>{{ filme.title }}</h2>
       <hr>
       <p>{{ filme.overview }}</p>

@@ -5,7 +5,7 @@
   "background_color": "#c0392b",
   "display": "standalone",
   "Scope": "/",
-  "start_url": "/index.html",
+  "start_url": "/ionic-pwa/index.html",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
